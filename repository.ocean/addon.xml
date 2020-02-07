@@ -2,7 +2,7 @@
 <addon id="repository.ocean" name="Ocean" version="0.0.1" provider-name="wahed">
 	<extension point="xbmc.addon.repository" name="Ocean">
 		<info compressed="false">https://adorable-creechie.github.io/ocean/addons.xml</info>
-		<checksum>https://adorable-creechie.github.io/ocean/addons.md5.xml</checksum>
+		<checksum>https://adorable-creechie.github.io/ocean/addons.xml.md5</checksum>
 		<datadir zip="true">https://adorable-creechie.github.io/ocean/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
