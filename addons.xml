@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.tide" name="Tide" version="0.0.1" provider-name="wahed">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+        <import addon="script.module.urlresolver"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">sport event streaming</summary>
+        <description lang="en">sport event streaming</description>
+    </extension>
+</addon>
+
+<addon id="repository.ocean" name="Ocean" version="0.0.1" provider-name="wahed">
+	<extension point="xbmc.addon.repository" name="Tide">
+		<info compressed="false">https://adorable-creechie.github.io/ocean/addons.xml</info>
+		<checksum>https://adorable-creechie.github.io/ocean/addons.md5.xml</checksum>
+		<datadir zip="true">https://adorable-creechie.github.io/ocean/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Ocean</summary>
+		<description>Kodi respository for some of the addons written by forest dwelling green men and women.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
