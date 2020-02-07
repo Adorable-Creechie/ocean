@@ -8,4 +8,4 @@ the **Ocean** repository.
 ## Addons available
 ### Tide
 Sport events plugin for Kodi
-https://github.com/Adorable-Creechie/tide
+- [Github repository](https://github.com/Adorable-Creechie/tide)
