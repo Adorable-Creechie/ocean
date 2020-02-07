@@ -2,3 +2,5 @@ title: Ocean
 description: Kodi respository for some of the addons written by forest dwelling green men and women.
 theme: jekyll-theme-tactile
 show_downloads: ["true"]
+github:
+    zip_url: repository.ocean/repository.ocean-latest.zip
