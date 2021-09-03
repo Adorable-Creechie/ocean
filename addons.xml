@@ -51,4 +51,24 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="plugin.video.violentliquid" name="Violent Liquid" version="1.2.401" provider-name="wahed">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.routing" version="0.2.3"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">client for violent liquid backend</summary>
+        <description lang="en">client for violent liquid backend</description>
+        <assets>
+          <icon>icon.png</icon>
+          <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
 </addons>
